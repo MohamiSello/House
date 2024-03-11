@@ -1,0 +1,80 @@
+.root
+{
+    -fx-background-color: Aqua;
+   /* -fx-alignment:center; */
+    -fx-background-radius: 25;
+}
+#house{
+            -fx-margin:  10;
+            -fx-border-color: azure;
+            -fx-border-width: 4.5;
+            -fx-border-radius: 12;
+            -fx-font: bold 25 "Verdana";
+            -fx-alignment: center;
+            -fx-padding : 25;
+}
+#house:hover{
+                -fx-margin:  10;
+                -fx-border-color: silver;
+                -fx-border-width: 4.5;
+                -fx-border-radius: 12;
+                -fx-font: bold 25 "Verdana";
+                -fx-alignment: center;
+                -fx-padding : 25;
+                -fx-text-fill: gray;
+}
+#buttonBar{
+    /*-fx-alignment: center;*/
+    -fx-padding : 10;
+    -fx-spacing: 30;
+}
+.image{-fx-spacing: 10;}
+.button {
+    -fx-padding : 10;  
+    -fx-background-color : #CCFF99;
+    -fx-effect:dropshadow(one-pass-box,black,8,0.0,2,0);
+    -fx-border-radius:20;
+    -fx-font: bold 15 "Verdana";
+    -fx-padding : 10;
+
+}
+
+/*#btnNext:hover {
+    -fx-background-color: turquoise;
+    -fx-text-fill: teal;
+    -fx-padding : 10;
+}*/
+.button:hover {
+    -fx-background-color: turquoise;
+    -fx-text-fill: teal;
+    -fx-padding : 10;
+}
+.imageView {
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.7) , 0,0,0,1 );
+}
+
+/* Hover effect for ImageView */
+.imageView:hover {
+    -fx-effect: dropshadow( gaussian , rgba(255,255,0,0.7) , 10,0,0,2 );
+}
+
+
+#cont{
+    -fx-justify-content: space-between;
+    -fx-padding:  5.8;
+    -fx-spacing: 10;
+}
+#mainDisplay{
+        -fx-margin:  10;
+        -fx-border-type: dotted;
+        -fx-border-color: red;
+        -fx-padding-width: 20;
+        -fx-effect: dropshadow(gaussian, rgba(255, 0, 0, 0.8), 10, 0, 0, 1);
+
+}
+
+#mainDisplay: hover {
+    -fx-border-color: blue;
+    -fx-border-width: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 255, 0.8), 10, 0, 0, 1);
+}
